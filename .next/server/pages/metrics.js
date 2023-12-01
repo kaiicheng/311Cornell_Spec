@@ -113,7 +113,7 @@ eval("// Exports\nmodule.exports = {\n\t\"main\": \"home_main__cqOS8\",\n\t\"des
   \*****************************************/
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"main\": \"metric_main__lHdW4\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9zdHlsZXMvbWV0cmljLm1vZHVsZS5zY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdHJlZTExLWRhc2hib2FyZC8uL3BhZ2VzL3N0eWxlcy9tZXRyaWMubW9kdWxlLnNjc3M/NTAwNyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJtYWluXCI6IFwibWV0cmljX21haW5fX2xIZFc0XCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/styles/metric.module.scss\n");
+eval("// Exports\nmodule.exports = {\n\t\"buttonContainer\": \"metric_buttonContainer__1FOPj\",\n\t\"button\": \"metric_button__GHMWN\",\n\t\"active\": \"metric_active__kX7K4\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9zdHlsZXMvbWV0cmljLm1vZHVsZS5zY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3RyZWUxMS1kYXNoYm9hcmQvLi9wYWdlcy9zdHlsZXMvbWV0cmljLm1vZHVsZS5zY3NzPzUwMDciXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiYnV0dG9uQ29udGFpbmVyXCI6IFwibWV0cmljX2J1dHRvbkNvbnRhaW5lcl9fMUZPUGpcIixcblx0XCJidXR0b25cIjogXCJtZXRyaWNfYnV0dG9uX19HSE1XTlwiLFxuXHRcImFjdGl2ZVwiOiBcIm1ldHJpY19hY3RpdmVfX2tYN0s0XCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/styles/metric.module.scss\n");
 
 /***/ }),
 
