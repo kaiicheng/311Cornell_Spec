@@ -1,4 +1,4 @@
-month,ServiceRequestsCount,WorkOrdersCount,InspectionsCount
+month,SRs,WOs,INSs
 Jan,3695,1500,2210
 Feb,4311,1745,2555
 Mar,7210,2467,4099

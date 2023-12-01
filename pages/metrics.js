@@ -3,7 +3,6 @@ import Header from "../components/header/header"
 import Footer from "../components/footer/footer"
 import Button from "../components/buttons/buttons"
 import styles from "./styles/home.module.scss";
-import metricstyles from "./styles/metric.module.scss";
 import SRMetric from "../components/charts/SRMetrics"
 import WOMetric from "../components/charts/WOMetrics";
 import InsMetric from "../components/charts/InsMetrics";
@@ -20,16 +19,13 @@ export default function Home() {
   const renderTab = () => {
     switch (activeTab) {
       case 1:
-        return <SRMetric />
+        return <SRMetric/>
       case 2:
-        return <InsMetric />;
+        return <InsMetric/>
       case 3:
-        return <WOMetric />;
-      default:
-        return null;
+        return <WOMetric/>
     }
-  };
-  
+  }
   return (
     <div className={styles.homeContainer}>
       <Header pageTitle="Home"/>
@@ -57,14 +53,10 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.metric}>
-          <div className={metricstyles.buttonContainer}>
-            <button className={[metricstyles.button, 1 === activeTab ? metricstyles.active : ''].join(' ')} onClick={() => setActiveTab(1)}>SERVICE REQUESTS</button>
-            <button className={[metricstyles.button, 2 === activeTab ? metricstyles.active : ''].join(' ')} onClick={() => setActiveTab(2)}>INSPECTIONS </button>
-            <button className={[metricstyles.button, 3 === activeTab ? metricstyles.active : ''].join(' ')} onClick={() => setActiveTab(3)}>WORK ORDERS</button>
-          </div>
-          <div >
-            {renderTab()}
-          </div>
+          <button onClick={() => setActiveTab(1)}>SERVICE REQUESTS</button>
+          <button onClick={() => setActiveTab(2)}>INSPECTIONS </button>
+          <button onClick={() => setActiveTab(3)}>WORK ORDERS</button>
+          {renderTab()}
         </section>
       </main>
       <Footer />
