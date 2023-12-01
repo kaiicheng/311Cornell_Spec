@@ -1,0 +1,24 @@
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 10px auto; 
+}
+
+.button{
+    background: rgba(0,0,0, 0.06);
+    border: none;
+    border-radius: var(--magicNumber);
+    padding: 8px 12px;
+    &:hover {
+        background: rgba(0,0,0, 0.3);
+        cursor: pointer;
+    }
+    // &:active {
+    //     background: #FFE500;
+    // }
+}
+
+.active {
+    background: #FFE500;
+}
